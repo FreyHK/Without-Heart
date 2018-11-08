@@ -8,7 +8,7 @@ public class UIWriteText : MonoBehaviour {
 
     TextMeshProUGUI text;
 
-    private void Start() {
+    private void Awake() {
         IsWriting = false;
         text = GetComponent<TextMeshProUGUI>();
     }
